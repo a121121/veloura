@@ -128,7 +128,7 @@
   }
 
   html {
-    @apply font-sans;
+    scroll-behavior: smooth;
   }
 
   :root {
@@ -142,5 +142,9 @@
 
   .font-label {
     font-family: var(--font-body);
+  }
+
+  .overflow-x-hidden {
+    overflow-x: hidden;
   }
 }
