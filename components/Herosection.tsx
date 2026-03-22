@@ -113,7 +113,7 @@ export function HeroSection() {
                 {/* Trust badges */}
                 <motion.div
                     variants={itemVariants}
-                    className="mt-16 flex items-center gap-8 opacity-50"
+                    className="mt-16 mb-8 flex items-center gap-8 opacity-50"
                 >
                     {badges.map(({ icon: Icon, label }) => (
                         <div key={label} className="flex items-center gap-2">

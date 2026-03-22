@@ -144,6 +144,10 @@
     font-family: var(--font-body);
   }
 
+  p {
+    font-family: var(--font-body);
+  }
+
   .overflow-x-hidden {
     overflow-x: hidden;
   }
